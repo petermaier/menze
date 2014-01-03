@@ -1,0 +1,116 @@
+﻿body 
+{
+    padding: 0;
+    color: #634f45;
+    background: #f3f3eb;
+    font-family: "gesta-1", "gesta-2", sans-serif;
+    font-weight: 400;
+    min-width: 768px;
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+header
+{
+    background-color: #c73f43;
+    min-height: 720px;
+    color: white;
+}
+
+nav {
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    min-width: 768px;
+    max-width: 1280px;
+    z-index: 101;
+    background-color: #c73f43;
+}
+
+
+nav li {
+    display: inline-block;
+    width: 22%;
+    max-width: 160px;
+    padding: 0 32px 0 32px;
+}
+
+nav a
+{
+    color: #fff;
+}
+
+#headercontent {
+    position: fixed;
+    min-width: 768px;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title
+{
+    padding-top: 10em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.subtitle
+{
+    text-align: center;
+}
+
+#icons table
+{
+    width: 100%;
+}
+
+#icons tr
+{
+    height: 300px;
+}
+
+
+
+
+section {
+    position: absolute;
+    width: 100%;
+    max-width: 1280px;
+    min-width: 768px;
+    background: #f3f3eb;
+    box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.1), 0 -8px 6px -6px #b63e5a;
+    overflow: hidden;
+}
+
+section > div
+{
+    min-height: 700px;
+}
+
+#threesixtycontent
+{
+    background-color: #e4d0a8;
+}
+
+#workcontent
+{
+    background-color: #644e5d;
+}
+
+#aboutcontent
+{
+    background-color: #30232f;
+}
+
+#contactcontent
+{
+    background-color: #3b9a78;
+}

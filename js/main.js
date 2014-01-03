@@ -1,0 +1,3 @@
+﻿$(function () {
+    $("nav a").smoothScroll();
+});
